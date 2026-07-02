@@ -5,6 +5,7 @@ import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import { FloatingWhatsApp } from '@/components/cta/floating-whatsapp';
 import { MobileCtaBar } from '@/components/cta/mobile-cta-bar';
+import { FloatingLeaves } from '@/components/layout/floating-leaves';
 import { JsonLd } from '@/components/seo/json-ld';
 import { organizationSchema, localBusinessSchema, websiteSchema } from '@/lib/schema';
 import { site } from '@/lib/site';
@@ -53,6 +54,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         >
           Skip to content
         </a>
+        <FloatingLeaves />
         <Header />
         <main id="main" className="pb-16 md:pb-0">
           {children}

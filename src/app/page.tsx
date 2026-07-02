@@ -6,6 +6,7 @@ import { StatsBand } from '@/components/sections/stats-band';
 import { WhyChoose } from '@/components/home/why-choose';
 import { ProductCategories } from '@/components/home/product-categories';
 import { BeforeAfterSection } from '@/components/home/before-after-section';
+import { ChickEffect } from '@/components/home/chick-effect';
 import { Process } from '@/components/home/process';
 import { ProjectShowcase } from '@/components/home/project-showcase';
 import { Guarantees } from '@/components/sections/guarantees';
@@ -50,6 +51,7 @@ export default function HomePage() {
       <WhyChoose />
       <ProductCategories />
       <BeforeAfterSection />
+      <ChickEffect />
       {/* Mid-page conversion band */}
       <CtaBand
         variant="cream"

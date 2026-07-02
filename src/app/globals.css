@@ -82,6 +82,33 @@
   }
 }
 
+/* Ambient floating bamboo leaves (site-wide) */
+@keyframes leaf-rise {
+  0% {
+    transform: translateY(10vh);
+    opacity: 0;
+  }
+  10% {
+    opacity: var(--leaf-o, 0.16);
+  }
+  90% {
+    opacity: var(--leaf-o, 0.16);
+  }
+  100% {
+    transform: translateY(-115vh);
+    opacity: 0;
+  }
+}
+
+@keyframes leaf-sway {
+  from {
+    transform: translateX(-24px) rotate(-32deg);
+  }
+  to {
+    transform: translateX(24px) rotate(32deg);
+  }
+}
+
 /* Respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
   *,

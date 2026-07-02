@@ -106,11 +106,43 @@ const config: Config = {
           '70%': { boxShadow: '0 0 0 14px rgba(37, 211, 102, 0)' },
           '100%': { boxShadow: '0 0 0 0 rgba(37, 211, 102, 0)' },
         },
+        'spin-slow': {
+          to: { transform: 'rotate(360deg)' },
+        },
+        shimmer: {
+          '0%': { transform: 'translateX(-25%)', opacity: '0' },
+          '45%': { opacity: '0.7' },
+          '100%': { transform: 'translateX(25%)', opacity: '0' },
+        },
+        drift: {
+          '0%': { transform: 'translate(0, 0)', opacity: '0' },
+          '12%': { opacity: '0.75' },
+          '88%': { opacity: '0.75' },
+          '100%': { transform: 'translate(20px, -46px)', opacity: '0' },
+        },
+        sway: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        },
+        'reed-breeze': {
+          '0%, 100%': { transform: 'translateX(-6px) skewX(-1.2deg)' },
+          '50%': { transform: 'translateX(6px) skewX(1.2deg)' },
+        },
+        kenburns: {
+          from: { transform: 'scale(1.03) translate(0, 0)' },
+          to: { transform: 'scale(1.15) translate(-2%, -1.5%)' },
+        },
       },
       animation: {
         'fade-up': 'fade-up 0.6s ease-out forwards',
         float: 'float 3s ease-in-out infinite',
         'pulse-ring': 'pulse-ring 2s infinite',
+        'spin-slow': 'spin-slow 44s linear infinite',
+        shimmer: 'shimmer 5.5s ease-in-out infinite',
+        drift: 'drift 7s linear infinite',
+        sway: 'sway 5s ease-in-out infinite',
+        'reed-breeze': 'reed-breeze 4.5s ease-in-out infinite',
+        kenburns: 'kenburns 6s ease-out both',
       },
     },
   },

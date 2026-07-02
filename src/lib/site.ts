@@ -136,6 +136,7 @@ export const footerNav = {
   ],
   support: [
     { label: 'FAQs', href: '/faqs' },
+    { label: 'Scan to Connect & Pay', href: '/connect' },
     { label: 'Service Areas', href: '/service-areas' },
     { label: 'Privacy Policy', href: '/privacy-policy' },
     { label: 'Terms & Conditions', href: '/terms-and-conditions' },

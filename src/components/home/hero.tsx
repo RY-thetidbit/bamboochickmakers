@@ -1,7 +1,7 @@
-import Image from 'next/image';
 import { CheckCircle2, Star } from 'lucide-react';
 import { WhatsAppButton } from '@/components/cta/whatsapp-button';
 import { CallButton } from '@/components/cta/call-button';
+import { HeroReveal } from '@/components/home/hero-reveal';
 import { site } from '@/lib/site';
 
 const trustPoints = ['3800+ Installations', '5+ Years Experience', 'Custom Sizes', 'Fast Installation'];
@@ -53,16 +53,7 @@ export function Hero() {
 
         {/* Visual */}
         <div className="relative animate-fade-up [animation-delay:120ms]">
-          <div className="relative aspect-square overflow-hidden rounded-3xl border border-cream-200 shadow-card">
-            <Image
-              src="/images/Bamboochick.jpg"
-              alt="Premium bamboo chick installed on a balcony for shade and privacy"
-              fill
-              priority
-              sizes="(max-width:1024px) 100vw, 50vw"
-              className="object-cover"
-            />
-          </div>
+          <HeroReveal />
           {/* Floating stat card */}
           <div className="absolute -bottom-5 -left-3 hidden rounded-2xl border border-cream-200 bg-white/95 p-4 shadow-card backdrop-blur sm:block">
             <p className="font-heading text-2xl font-bold text-brand">70%</p>
