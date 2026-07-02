@@ -5,6 +5,7 @@ import { buildMetadata } from '@/lib/seo';
 import { Breadcrumbs } from '@/components/ui/breadcrumbs';
 import { PageHero } from '@/components/ui/page-hero';
 import { LeadForm } from '@/components/cta/lead-form';
+import { ScanConnect } from '@/components/sections/scan-connect';
 import { JsonLd } from '@/components/seo/json-ld';
 import { localBusinessSchema } from '@/lib/schema';
 import { site } from '@/lib/site';
@@ -95,6 +96,8 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      <ScanConnect />
 
       <JsonLd data={localBusinessSchema({ path: '/contact-us' })} />
     </>

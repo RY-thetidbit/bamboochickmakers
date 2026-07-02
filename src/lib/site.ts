@@ -31,15 +31,15 @@ export const site = {
   // Approximate centre of the base location (Vasant Vihar, New Delhi) for LocalBusiness schema / map
   geo: { lat: 28.5601, lng: 77.1588 },
 
-  hours: 'Mon–Sun: 9:00 AM – 8:00 PM',
+  hours: 'Open 24 hours · 7 days a week',
   openingHoursSpec: [
-    { days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], opens: '09:00', closes: '20:00' },
+    { days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], opens: '00:00', closes: '23:59' },
   ],
 
-  foundingYear: 2014,
-  yearsExperience: 10,
-  installationsCount: 500,
-  rating: { value: 4.9, count: 327 },
+  foundingYear: 2021,
+  yearsExperience: 5,
+  installationsCount: 3800,
+  rating: { value: 4.9, count: 4000 },
 
   // Founder / owner — featured in the "Meet the Owner" section
   owner: {
@@ -49,7 +49,7 @@ export const site = {
     // Left blank, the section shows an elegant monogram instead of a broken image.
     photo: '',
     bio: [
-      'Bamboo Chick Makers was founded by Sanjay Sikarwar, a craftsman who has spent over a decade perfecting bamboo chicks, blinds and natural shading for Delhi homes and businesses.',
+      'Bamboo Chick Makers was founded by Sanjay Sikarwar, a craftsman who has spent over five years perfecting bamboo chicks, blinds and natural shading for Delhi homes and businesses.',
       'From our base in Vasant Vihar, Sanjay personally oversees every measurement, manufacturing batch and installation — so each customer gets honest advice, fair pricing and a finish that lasts.',
     ],
     quote: 'I treat every home like my own. If it isn’t right, it doesn’t leave my workshop.',
@@ -60,6 +60,21 @@ export const site = {
     instagram: 'https://www.instagram.com/sanjaybamboochickmaker/',
     facebook: '',
     youtube: '',
+  },
+
+  // Scan-to-connect & scan-to-pay QR codes (served from /public/images).
+  // Leave a value empty ('') to hide that card.
+  qr: {
+    whatsapp: '/images/qr-whatsapp.jpg',
+    instagram: '/images/qr-instagram.jpg',
+    phonepe: '/images/qr-phonepe.jpg',
+    upi: '/images/qr-upi.jpg',
+  },
+
+  // Digital payments accepted (UPI / PhonePe). Shown on the contact page.
+  upiId: '',
+  payments: {
+    accepts: ['UPI', 'PhonePe', 'Google Pay', 'Paytm', 'Bank Transfer'],
   },
 
   // Prefilled WhatsApp messages used across the site

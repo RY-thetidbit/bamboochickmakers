@@ -66,8 +66,8 @@ export type Stat = { value: string; label: string };
 
 /** Project statistics / counters */
 export const stats: Stat[] = [
-  { value: '500+', label: 'Installations Completed' },
-  { value: '10+', label: 'Years of Experience' },
+  { value: '3800+', label: 'Installations Completed' },
+  { value: '5+', label: 'Years of Experience' },
   { value: '4.9★', label: 'Average Customer Rating' },
   { value: '12+', label: 'Cities Served' },
 ];

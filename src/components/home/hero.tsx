@@ -4,7 +4,7 @@ import { WhatsAppButton } from '@/components/cta/whatsapp-button';
 import { CallButton } from '@/components/cta/call-button';
 import { site } from '@/lib/site';
 
-const trustPoints = ['500+ Installations', '10+ Years Experience', 'Custom Sizes', 'Fast Installation'];
+const trustPoints = ['3800+ Installations', '5+ Years Experience', 'Custom Sizes', 'Fast Installation'];
 
 export function Hero() {
   return (

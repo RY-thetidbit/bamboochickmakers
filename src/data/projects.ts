@@ -92,6 +92,24 @@ export const projects: Project[] = [
     image: img('fancyChick.jpg'),
     summary: 'Designer fancy chicks brought warmth and natural texture to a Hauz Khas restaurant.',
   },
+  {
+    slug: 'garage-roll-up-chick',
+    title: 'Garage Roll-Up Chicks',
+    category: 'Residential',
+    location: 'South Delhi',
+    product: 'Bamboo Chick',
+    image: img('bamboochickgarage.jpg'),
+    summary: 'Large pulley-operated bamboo chicks screen an open car porch — roll them up for access, down for shade and dust protection.',
+  },
+  {
+    slug: 'resort-bamboo-mooda',
+    title: 'Bamboo Mooda Seating',
+    category: 'Commercial',
+    location: 'Delhi NCR',
+    product: 'Bamboo Hut & Gazebo',
+    image: img('bamboomooda.jpg'),
+    summary: 'Handwoven bamboo moodas and chairs in bright colour-bound finishes for resort and garden seating.',
+  },
 ];
 
 export function getProject(slug: string) {

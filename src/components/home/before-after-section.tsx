@@ -8,10 +8,10 @@ import { cn } from '@/lib/utils';
 type Shot = { src: string; title: string; location: string; span?: boolean };
 
 const shots: Shot[] = [
-  { src: '/images/Bamboochickoutdoor.jpg', title: 'Outdoor Bamboo Chick', location: 'Vasant Vihar, Delhi', span: true },
+  { src: '/images/bamboochickwall.jpg', title: 'Outdoor Bamboo Chick Wall', location: 'Vasant Vihar, Delhi', span: true },
   { src: '/images/zebrablinds.jpg', title: 'Zebra Blinds', location: 'Greater Kailash, Delhi' },
   { src: '/images/Bamboojafri.jpg', title: 'Bamboo Jafri Fencing', location: 'Chhatarpur, Delhi' },
-  { src: '/images/Bambooresortumbrella.jpg', title: 'Bamboo Gazebo', location: 'Gurgaon' },
+  { src: '/images/bamboochickgarage.jpg', title: 'Garage Roll-Up Chick', location: 'South Delhi' },
   { src: '/images/Pigeonnet.jpg', title: 'Pigeon Net', location: 'Dwarka, Delhi' },
 ];
 
@@ -21,7 +21,7 @@ export function BeforeAfterSection() {
     <section className="section">
       <div className="container-tight">
         <SectionHeading
-          eyebrow="Our Work"
+          eyebrow="Gallery"
           title="See our installations in action"
           description="Real bamboo chicks, blinds, nets and structures we’ve crafted and fitted for homes and businesses across Delhi NCR."
         />

@@ -10,7 +10,7 @@ export function TestimonialsSection() {
       <div className="container-tight">
         <SectionHeading
           eyebrow="Customer Reviews"
-          title="Loved by 500+ homes & businesses"
+          title="Loved by 3800+ homes & businesses"
           description={`Rated ${site.rating.value}/5 across ${site.rating.count}+ reviews. Here’s what our customers say.`}
         />
 

@@ -3,7 +3,7 @@ import { LeadForm } from '@/components/cta/lead-form';
 
 const points = [
   { icon: BadgeIndianRupee, text: 'Free, no-obligation quote' },
-  { icon: Clock, text: 'Same-day reply on WhatsApp' },
+  { icon: Clock, text: 'Fast WhatsApp reply, any time' },
   { icon: CheckCircle2, text: 'Custom sizes & finishes' },
   { icon: ShieldCheck, text: 'Up to 2-year warranty' },
 ];
@@ -19,8 +19,8 @@ export function QuoteSection({ defaultCity, defaultProduct }: { defaultCity?: st
               Tell us about your space — get pricing today
             </h2>
             <p className="lead mt-4">
-              Share a few details and we’ll send a custom quote on WhatsApp within business hours. No pushy sales calls,
-              just clear, honest pricing.
+              Share a few details and we’ll send a custom quote on WhatsApp — we reply round the clock. No pushy sales
+              calls, just clear, honest pricing.
             </p>
             <ul className="mt-7 space-y-3">
               {points.map((p) => (

@@ -37,7 +37,7 @@ export const products: Product[] = [
     excerpt:
       'Traditional bamboo chicks (pardi) handwoven from seasoned bamboo — natural heat reduction, privacy and timeless looks for windows, verandahs and balconies.',
     heroImage: img('Bamboochick.jpg'),
-    gallery: [img('Bamboochickoutdoor.jpg'), img('Bamboochicksimple.jpg'), img('Bamboochickoutdoorside.jpg')],
+    gallery: [img('Bamboochickoutdoor.jpg'), img('bamboochickwall.jpg'), img('bamboochickgarage.jpg'), img('bamboochicknetweave.jpg'), img('Bamboochicksimple.jpg'), img('Bamboochickoutdoorside.jpg')],
     priceFrom: '₹45 / sq.ft',
     metaTitle: 'Bamboo Chick Manufacturer & Installation | Bamboo Chick Makers',
     metaDescription:
@@ -242,7 +242,7 @@ export const products: Product[] = [
     excerpt:
       'Premium fancy bamboo chicks with decorative weaves, borders and stained finishes — a statement screen for entrances, feature windows and hospitality spaces.',
     heroImage: img('fancyChick.jpg'),
-    gallery: [img('fancyChick.jpg'), img('bamboofancy.jpg'), img('newdesign.jpg')],
+    gallery: [img('fancyChick.jpg'), img('fancybamboochickpurple.jpg'), img('bamboofancy.jpg'), img('newdesign.jpg')],
     priceFrom: '₹85 / sq.ft',
     metaTitle: 'Fancy Bamboo Chick — Designer Decorative Chicks | Bamboo Chick Makers',
     metaDescription:
@@ -283,7 +283,7 @@ export const products: Product[] = [
     excerpt:
       'Modern dual-layer zebra blinds that glide between sheer and solid bands — elegant, precise light control for living rooms, offices and bedrooms.',
     heroImage: img('zebrablinds.jpg'),
-    gallery: [img('zebrablinds.jpg'), img('rollingblinds.jpg'), img('windowsblinds.jpg')],
+    gallery: [img('zebrablinds.jpg'), img('zebrablindsdisplay.jpg'), img('rollingblinds.jpg'), img('windowsblinds.jpg')],
     priceFrom: '₹120 / sq.ft',
     metaTitle: 'Zebra Blinds — Dual-Layer Day & Night Blinds | Bamboo Chick Makers',
     metaDescription:
@@ -324,7 +324,7 @@ export const products: Product[] = [
     excerpt:
       'Sleek roller blinds in plain, textured and blackout fabrics — simple, durable and minimal light control for homes and offices.',
     heroImage: img('rollingblinds.jpg'),
-    gallery: [img('rollingblinds.jpg'), img('windowsblinds.jpg'), img('zebrablinds.jpg')],
+    gallery: [img('rollingblinds.jpg'), img('zebrablindsdisplay.jpg'), img('windowsblinds.jpg'), img('zebrablinds.jpg')],
     priceFrom: '₹90 / sq.ft',
     metaTitle: 'Roller Blinds — Plain & Blackout Window Blinds | Bamboo Chick Makers',
     metaDescription:
@@ -488,7 +488,7 @@ export const products: Product[] = [
     excerpt:
       'Handcrafted bamboo huts, gazebos and ambela structures for gardens, farmhouses, resorts and cafés — natural shaded retreats built to order.',
     heroImage: img('Bamboohuts.jpg'),
-    gallery: [img('Bamboohuts.jpg'), img('Bambooambela.jpg'), img('Bambooresortumbrella.jpg')],
+    gallery: [img('Bamboohuts.jpg'), img('Bambooambela.jpg'), img('bamboomooda.jpg'), img('Bambooresortumbrella.jpg')],
     priceFrom: 'On request',
     metaTitle: 'Bamboo Hut, Gazebo & Ambela Builders | Bamboo Chick Makers',
     metaDescription:

@@ -51,9 +51,9 @@ export default function OgImage() {
         </div>
 
         <div style={{ display: 'flex', gap: 28, fontSize: 26, color: '#EBDBCB' }}>
-          <div>500+ Installations</div>
+          <div>3800+ Installations</div>
           <div>·</div>
-          <div>10+ Years</div>
+          <div>5+ Years</div>
           <div>·</div>
           <div>{site.domain}</div>
         </div>

@@ -14,9 +14,9 @@ import { Reveal } from '@/components/ui/reveal';
 import { site } from '@/lib/site';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'About Us — 10+ Years of Bamboo Chick Craftsmanship',
+  title: 'About Us — 5+ Years of Bamboo Chick Craftsmanship',
   description:
-    'Learn about Bamboo Chick Makers — a family-run Vasant Vihar manufacturer with 10+ years and 500+ installations, crafting and fitting premium bamboo chicks across Delhi NCR.',
+    'Learn about Bamboo Chick Makers — a family-run Vasant Vihar manufacturer with 5+ years and 3800+ installations, crafting and fitting premium bamboo chicks across Delhi NCR.',
   path: '/about-us',
   keywords: ['about bamboo chick makers', 'bamboo chick manufacturer delhi', 'bamboo chick company vasant vihar'],
 });
@@ -34,7 +34,7 @@ export default function AboutPage() {
       <Breadcrumbs items={[{ name: 'About Us', path: '/about-us' }]} />
       <PageHero
         eyebrow="About Us"
-        title="Crafting cooler, calmer spaces for over a decade"
+        title="Crafting cooler, calmer spaces for over five years"
         description={`Since ${site.foundingYear}, Bamboo Chick Makers has manufactured and installed premium bamboo chicks for homes, balconies, terraces and commercial spaces across Delhi NCR.`}
       />
 

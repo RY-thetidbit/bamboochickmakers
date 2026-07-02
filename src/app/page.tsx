@@ -14,6 +14,7 @@ import { TestimonialsSection } from '@/components/home/testimonials-section';
 import { ServiceAreasSection } from '@/components/home/service-areas-section';
 import { LocationMap } from '@/components/sections/location-map';
 import { QuoteSection } from '@/components/sections/quote-section';
+import { ScanConnect } from '@/components/sections/scan-connect';
 import { FaqSection } from '@/components/sections/faq-section';
 import { CtaBand } from '@/components/cta/cta-band';
 import { JsonLd } from '@/components/seo/json-ld';
@@ -24,7 +25,7 @@ import { testimonials } from '@/data/testimonials';
 export const metadata: Metadata = buildMetadata({
   title: 'Bamboo Chick Makers in Vasant Vihar, Delhi — Chicks, Blinds & Nets',
   description:
-    'Bamboo Chick Makers in Vasant Vihar, Delhi — custom bamboo chicks, blinds, zebra blinds, pigeon nets, jafri & huts. 10+ years, 500+ installs, 4.9★. Serving Delhi NCR. Free WhatsApp quote.',
+    'Bamboo Chick Makers in Vasant Vihar, Delhi — custom bamboo chicks, blinds, zebra blinds, pigeon nets, jafri & huts. 5+ years, 3800+ installs, 4.9★. Serving Delhi NCR. Free WhatsApp quote.',
   path: '/',
   keywords: [
     'bamboo chick makers',
@@ -60,6 +61,7 @@ export default function HomePage() {
       <Guarantees />
       <Owner className="bg-cream-50" />
       <TestimonialsSection />
+      <ScanConnect />
       <ServiceAreasSection />
       <LocationMap />
       <QuoteSection />
