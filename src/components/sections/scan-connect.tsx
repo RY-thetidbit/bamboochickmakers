@@ -37,12 +37,6 @@ const connectCards: QRCard[] = [
 
 const payCards: QRCard[] = [
   {
-    key: 'phonepe',
-    title: 'Pay with PhonePe',
-    subtitle: 'Scan & pay securely using the PhonePe app.',
-    image: site.qr.phonepe,
-  },
-  {
     key: 'upi',
     title: 'Pay via UPI',
     subtitle: 'Scan with any UPI app — GPay, Paytm, BHIM & more.',
