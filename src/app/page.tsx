@@ -19,7 +19,7 @@ import { ScanConnect } from '@/components/sections/scan-connect';
 import { FaqSection } from '@/components/sections/faq-section';
 import { CtaBand } from '@/components/cta/cta-band';
 import { JsonLd } from '@/components/seo/json-ld';
-import { localBusinessSchema, reviewSchema } from '@/lib/schema';
+import { reviewSchema } from '@/lib/schema';
 import { generalFaqs } from '@/data/faqs';
 import { testimonials } from '@/data/testimonials';
 
@@ -71,7 +71,7 @@ export default function HomePage() {
       {/* Final conversion CTA */}
       <CtaBand />
 
-      <JsonLd data={[localBusinessSchema(), ...reviewSchema(testimonials.map((t) => ({ name: t.name, rating: t.rating, text: t.text })))]} />
+      <JsonLd data={reviewSchema(testimonials.map((t) => ({ name: t.name, rating: t.rating, text: t.text })))} />
     </>
   );
 }

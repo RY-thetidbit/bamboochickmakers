@@ -19,7 +19,7 @@ const PHOTOS = [
   { src: '/images/bamboochickwall.jpg', title: 'Outdoor Privacy Wall', location: 'Vasant Vihar, Delhi' },
   { src: '/images/bamboochickgarage.jpg', title: 'Garage Roll-Up Chick', location: 'South Delhi' },
   { src: '/images/Bamboochickoutdoor.jpg', title: 'Balcony Bamboo Chick', location: 'Dwarka, Delhi' },
-  { src: '/images/fancyChick.jpg', title: 'Fancy Designer Chick', location: 'Hauz Khas, Delhi' },
+  { src: '/images/fancybamboochickpurple.jpg', title: 'Fancy Designer Chick', location: 'Hauz Khas, Delhi' },
   { src: '/images/Bamboohuts.jpg', title: 'Resort Bamboo Hut', location: 'Gurgaon' },
 ];
 

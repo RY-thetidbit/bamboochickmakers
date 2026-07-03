@@ -8,7 +8,7 @@ export const site = {
   legalName: 'Bamboo Chick Makers',
   shortName: 'Bamboo Chick Makers',
   domain: 'bamboochickmakers.com',
-  url: 'https://bamboochickmakers.com',
+  url: 'https://www.bamboochickmakers.com',
   tagline: 'Premium Bamboo Chick Manufacturing & Installation',
   description:
     'Bamboo Chick Makers manufactures, customizes and installs premium bamboo chicks, blinds, zebra & roller blinds, anti-bird nets, bamboo jafri and bamboo huts for homes, balconies, terraces and commercial spaces across Delhi NCR — Vasant Vihar, South Delhi, New Delhi, Dwarka, Gurgaon and Noida.',
@@ -107,10 +107,10 @@ export const mainNav: NavGroup[] = [
       { label: 'Bamboo Hut & Gazebo', href: '/products/bamboo-hut' },
     ],
   },
-  { label: 'Custom Solutions', href: '/custom-solutions' },
+  { label: 'Custom', href: '/custom-solutions' },
   { label: 'Gallery', href: '/gallery' },
   { label: 'Projects', href: '/completed-projects' },
-  { label: 'Service Areas', href: '/service-areas' },
+  { label: 'Services', href: '/service-areas' },
   { label: 'Blog', href: '/blog' },
   { label: 'Contact', href: '/contact-us' },
 ];

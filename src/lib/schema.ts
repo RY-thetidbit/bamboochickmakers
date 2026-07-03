@@ -202,7 +202,7 @@ export function reviewSchema(reviews: { name: string; rating: number; text: stri
     reviewRating: { '@type': 'Rating', ratingValue: r.rating, bestRating: 5 },
     author: { '@type': 'Person', name: r.name },
     reviewBody: r.text,
-    itemReviewed: { '@type': 'Organization', name: site.name },
+    itemReviewed: { '@id': `${site.url}/#localbusiness` },
   }));
 }
 

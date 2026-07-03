@@ -10,6 +10,17 @@ const nextConfig = {
       { protocol: 'https', hostname: 'res.cloudinary.com' },
     ],
   },
+  async redirects() {
+    return [
+      // Canonical host: force apex (non-www) → www so Google indexes one domain only.
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'bamboochickmakers.com' }],
+        destination: 'https://www.bamboochickmakers.com/:path*',
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {

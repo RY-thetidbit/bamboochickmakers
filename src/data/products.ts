@@ -36,8 +36,8 @@ export const products: Product[] = [
     tagline: 'Classic handcrafted bamboo chicks for shade, privacy & cooling',
     excerpt:
       'Traditional bamboo chicks (pardi) handwoven from seasoned bamboo — natural heat reduction, privacy and timeless looks for windows, verandahs and balconies.',
-    heroImage: img('Bamboochick.jpg'),
-    gallery: [img('Bamboochickoutdoor.jpg'), img('bamboochickwall.jpg'), img('bamboochickgarage.jpg'), img('bamboochicknetweave.jpg'), img('Bamboochicksimple.jpg'), img('Bamboochickoutdoorside.jpg')],
+    heroImage: img('bamboochickwall.jpg'),
+    gallery: [img('bamboochickgarage.jpg'), img('bamboochicknetweave.jpg'), img('Bamboochickoutdoor.jpg'), img('Bamboochicksimple.jpg'), img('Bamboochickoutdoorside.jpg')],
     priceFrom: '₹45 / sq.ft',
     metaTitle: 'Bamboo Chick Manufacturer & Installation | Bamboo Chick Makers',
     metaDescription:
@@ -77,8 +77,8 @@ export const products: Product[] = [
     tagline: 'Refined roll-up & Roman bamboo blinds for interiors',
     excerpt:
       'Premium interior bamboo blinds with smooth roll-up and Roman-fold mechanisms — warm natural texture and precise light control for living rooms, bedrooms and offices.',
-    heroImage: img('chickblinds.jpg'),
-    gallery: [img('chickblinds.jpg'), img('Romanblind.jpg'), img('woodenblinds.jpg')],
+    heroImage: img('bamboo-blinds-interior.jpg'),
+    gallery: [img('bamboo-blinds-interior.jpg'), img('chickblinds.jpg'), img('Romanblind.jpg'), img('woodenblinds.jpg')],
     priceFrom: '₹65 / sq.ft',
     metaTitle: 'Bamboo Blinds — Roll-up & Roman Window Blinds | Bamboo Chick Makers',
     metaDescription:
@@ -118,8 +118,8 @@ export const products: Product[] = [
     tagline: 'Decorative bamboo curtains & indoor partitions',
     excerpt:
       'Elegant bamboo curtains and indoor partitions for doorways, dividers and décor accents — natural separation of spaces without blocking light or air.',
-    heroImage: img('indoorpartition.jpg'),
-    gallery: [img('indoorpartition.jpg'), img('bamboofancy.jpg'), img('Bamboochicksimple.jpg')],
+    heroImage: img('bamboo-curtain-reed.jpg'),
+    gallery: [img('bamboo-curtain-reed.jpg'), img('indoorpartition.jpg'), img('bamboofancy.jpg'), img('Bamboochicksimple.jpg')],
     priceFrom: '₹55 / sq.ft',
     metaTitle: 'Bamboo Curtains & Indoor Partitions | Bamboo Chick Makers',
     metaDescription:
@@ -159,8 +159,8 @@ export const products: Product[] = [
     tagline: 'Balcony bamboo chicks for shade, privacy & rain protection',
     excerpt:
       'Purpose-built balcony bamboo chicks that block harsh sun, shield from rain splash and create a private, cool outdoor retreat in apartments and bungalows.',
-    heroImage: img('BamboochickBalcony.jpg'),
-    gallery: [img('BamboochickBalcony.jpg'), img('Bamboochickoutdoor.jpg'), img('sunprotectionchick.jpg')],
+    heroImage: img('bamboochickgarage.jpg'),
+    gallery: [img('bamboochickwall.jpg'), img('BamboochickBalcony.jpg'), img('Bamboochickoutdoor.jpg'), img('sunprotectionchick.jpg')],
     priceFrom: '₹50 / sq.ft',
     metaTitle: 'Balcony Bamboo Chick — Shade & Privacy | Bamboo Chick Makers',
     metaDescription:
@@ -200,8 +200,8 @@ export const products: Product[] = [
     tagline: 'Large-span terrace bamboo chicks & shade screens',
     excerpt:
       'Large-format terrace bamboo chicks and side screens that shade rooftops, create open-air lounges and make terrace cafés and party areas usable year-round.',
-    heroImage: img('Bambooresortumbrella.jpg'),
-    gallery: [img('Bambooresortumbrella.jpg'), img('Bamboohuts.jpg'), img('Bamboochickoutdoorside.jpg')],
+    heroImage: img('terrace-shade-canopy.jpg'),
+    gallery: [img('terrace-shade-canopy.jpg'), img('Bambooresortumbrella.jpg'), img('Bamboochickoutdoorside.jpg')],
     priceFrom: '₹55 / sq.ft',
     metaTitle: 'Terrace Bamboo Chick & Shade Screens | Bamboo Chick Makers',
     metaDescription:
@@ -241,8 +241,8 @@ export const products: Product[] = [
     tagline: 'Designer fancy chicks with decorative weaves & finishes',
     excerpt:
       'Premium fancy bamboo chicks with decorative weaves, borders and stained finishes — a statement screen for entrances, feature windows and hospitality spaces.',
-    heroImage: img('fancyChick.jpg'),
-    gallery: [img('fancyChick.jpg'), img('fancybamboochickpurple.jpg'), img('bamboofancy.jpg'), img('newdesign.jpg')],
+    heroImage: img('fancybamboochickpurple.jpg'),
+    gallery: [img('fancyChick.jpg'), img('bamboofancy.jpg'), img('newdesign.jpg')],
     priceFrom: '₹85 / sq.ft',
     metaTitle: 'Fancy Bamboo Chick — Designer Decorative Chicks | Bamboo Chick Makers',
     metaDescription:
@@ -282,8 +282,8 @@ export const products: Product[] = [
     tagline: 'Dual-layer zebra blinds for sheer-to-solid light control',
     excerpt:
       'Modern dual-layer zebra blinds that glide between sheer and solid bands — elegant, precise light control for living rooms, offices and bedrooms.',
-    heroImage: img('zebrablinds.jpg'),
-    gallery: [img('zebrablinds.jpg'), img('zebrablindsdisplay.jpg'), img('rollingblinds.jpg'), img('windowsblinds.jpg')],
+    heroImage: img('zebrablindsdisplay.jpg'),
+    gallery: [img('zebrablinds.jpg'), img('rollingblinds.jpg'), img('windowsblinds.jpg')],
     priceFrom: '₹120 / sq.ft',
     metaTitle: 'Zebra Blinds — Dual-Layer Day & Night Blinds | Bamboo Chick Makers',
     metaDescription:
@@ -323,8 +323,8 @@ export const products: Product[] = [
     tagline: 'Clean, minimal roller blinds with blackout options',
     excerpt:
       'Sleek roller blinds in plain, textured and blackout fabrics — simple, durable and minimal light control for homes and offices.',
-    heroImage: img('rollingblinds.jpg'),
-    gallery: [img('rollingblinds.jpg'), img('zebrablindsdisplay.jpg'), img('windowsblinds.jpg'), img('zebrablinds.jpg')],
+    heroImage: img('roller-blinds-window.jpg'),
+    gallery: [img('roller-blinds-window.jpg'), img('zebrablindsdisplay.jpg'), img('rollingblinds.jpg'), img('windowsblinds.jpg')],
     priceFrom: '₹90 / sq.ft',
     metaTitle: 'Roller Blinds — Plain & Blackout Window Blinds | Bamboo Chick Makers',
     metaDescription:
@@ -364,8 +364,8 @@ export const products: Product[] = [
     tagline: 'Vertical blinds for large windows & glass facades',
     excerpt:
       'Practical vertical blinds for large windows, sliding doors and office facades — easy light control and a clean, professional finish.',
-    heroImage: img('verticalblinds.jpg'),
-    gallery: [img('verticalblinds.jpg'), img('aluminiumblinds.jpg'), img('windowsblinds.jpg')],
+    heroImage: img('vertical-blinds-window.jpg'),
+    gallery: [img('vertical-blinds-window.jpg'), img('verticalblinds.jpg'), img('aluminiumblinds.jpg'), img('windowsblinds.jpg')],
     priceFrom: '₹95 / sq.ft',
     metaTitle: 'Vertical Blinds for Large Windows & Offices | Bamboo Chick Makers',
     metaDescription:
@@ -405,8 +405,8 @@ export const products: Product[] = [
     tagline: 'Invisible pigeon & bird nets for balconies and ducts',
     excerpt:
       'Strong, near-invisible anti-bird and pigeon nets for balconies, windows, ducts and open shafts — keep birds out without blocking light or views.',
-    heroImage: img('Pigeonnet.jpg'),
-    gallery: [img('Pigeonnet.jpg'), img('greenNet.jpg'), img('greenghas.jpg')],
+    heroImage: img('pigeon-net-balcony.jpg'),
+    gallery: [img('pigeon-net-balcony.jpg'), img('Pigeonnet.jpg'), img('greenNet.jpg'), img('greenghas.jpg')],
     priceFrom: '₹8 / sq.ft',
     metaTitle: 'Anti-Bird & Pigeon Net Installation | Bamboo Chick Makers',
     metaDescription:
@@ -446,8 +446,8 @@ export const products: Product[] = [
     tagline: 'Bamboo jafri fencing, screens & garden partitions',
     excerpt:
       'Natural bamboo jafri panels for fencing, garden screens and boundary partitions — rustic, sturdy and perfect for farmhouses, gardens and resorts.',
-    heroImage: img('Bamboojafri.jpg'),
-    gallery: [img('Bamboojafri.jpg'), img('bamboofencingblind.jpg'), img('Bambooambela.jpg')],
+    heroImage: img('bamboo-jafri-screen.jpg'),
+    gallery: [img('bamboo-jafri-screen.jpg'), img('Bamboojafri.jpg'), img('bamboofencingblind.jpg'), img('Bambooambela.jpg')],
     priceFrom: '₹60 / sq.ft',
     metaTitle: 'Bamboo Jafri — Fencing, Screens & Partitions | Bamboo Chick Makers',
     metaDescription:
@@ -487,8 +487,8 @@ export const products: Product[] = [
     tagline: 'Bamboo huts, gazebos & ambela for gardens & resorts',
     excerpt:
       'Handcrafted bamboo huts, gazebos and ambela structures for gardens, farmhouses, resorts and cafés — natural shaded retreats built to order.',
-    heroImage: img('Bamboohuts.jpg'),
-    gallery: [img('Bamboohuts.jpg'), img('Bambooambela.jpg'), img('bamboomooda.jpg'), img('Bambooresortumbrella.jpg')],
+    heroImage: img('bamboo-hut-gazebo.jpg'),
+    gallery: [img('bamboo-hut-gazebo.jpg'), img('Bamboohuts.jpg'), img('bamboomooda.jpg'), img('Bambooresortumbrella.jpg')],
     priceFrom: 'On request',
     metaTitle: 'Bamboo Hut, Gazebo & Ambela Builders | Bamboo Chick Makers',
     metaDescription:

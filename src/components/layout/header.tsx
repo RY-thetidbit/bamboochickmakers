@@ -113,7 +113,7 @@ export function Header() {
             href={telLink(site.phone)}
             className="inline-flex h-10 items-center gap-2 rounded-full border-2 border-brand/25 px-4 text-sm font-semibold text-brand-700 transition hover:border-brand hover:bg-brand-50"
           >
-            <Phone className="h-4 w-4" /> Call Now
+            <Phone className="h-4 w-4" /> Call
           </Link>
           <Link
             href={whatsappLink(site.whatsapp, site.waMessages.general)}

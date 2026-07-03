@@ -83,15 +83,15 @@ const img = (name: string) => `/images/${name}`;
 
 /** Product categories — Section 4 */
 export const productCategories: ProductCard[] = [
-  { title: 'Bamboo Chick', href: '/products/bamboo-chick', description: 'Classic handwoven chicks for shade & privacy.', image: img('Bamboochick.jpg') },
-  { title: 'Bamboo Blinds', href: '/products/bamboo-blinds', description: 'Tailored roll-up & Roman interior blinds.', image: img('chickblinds.jpg') },
-  { title: 'Zebra Blinds', href: '/products/zebra-blinds', description: 'Dual-layer day & night blinds.', image: img('zebrablinds.jpg') },
-  { title: 'Balcony Solutions', href: '/products/balcony-bamboo-chick', description: 'Cool, private, rain-protected balconies.', image: img('BamboochickBalcony.jpg') },
-  { title: 'Terrace & Resort', href: '/products/terrace-bamboo-chick', description: 'Large-span shade, umbrellas & huts.', image: img('Bambooresortumbrella.jpg') },
-  { title: 'Fancy Bamboo Chick', href: '/products/fancy-bamboo-chick', description: 'Designer decorative chicks & finishes.', image: img('fancyChick.jpg') },
-  { title: 'Anti-Bird & Pigeon Net', href: '/products/anti-bird-net', description: 'Near-invisible balcony & duct nets.', image: img('Pigeonnet.jpg') },
-  { title: 'Bamboo Jafri', href: '/products/bamboo-jafri', description: 'Bamboo fencing, screens & partitions.', image: img('Bamboojafri.jpg') },
-  { title: 'Bamboo Hut & Gazebo', href: '/products/bamboo-hut', description: 'Huts, gazebos & ambela for resorts.', image: img('Bamboohuts.jpg') },
+  { title: 'Bamboo Chick', href: '/products/bamboo-chick', description: 'Classic handwoven chicks for shade & privacy.', image: img('bamboochickwall.jpg') },
+  { title: 'Bamboo Blinds', href: '/products/bamboo-blinds', description: 'Tailored roll-up & Roman interior blinds.', image: img('bamboo-blinds-interior.jpg') },
+  { title: 'Zebra Blinds', href: '/products/zebra-blinds', description: 'Dual-layer day & night blinds.', image: img('zebrablindsdisplay.jpg') },
+  { title: 'Balcony Solutions', href: '/products/balcony-bamboo-chick', description: 'Cool, private, rain-protected balconies.', image: img('bamboochickgarage.jpg') },
+  { title: 'Terrace & Resort', href: '/products/terrace-bamboo-chick', description: 'Large-span shade, umbrellas & huts.', image: img('terrace-shade-canopy.jpg') },
+  { title: 'Fancy Bamboo Chick', href: '/products/fancy-bamboo-chick', description: 'Designer decorative chicks & finishes.', image: img('fancybamboochickpurple.jpg') },
+  { title: 'Anti-Bird & Pigeon Net', href: '/products/anti-bird-net', description: 'Near-invisible balcony & duct nets.', image: img('pigeon-net-balcony.jpg') },
+  { title: 'Bamboo Jafri', href: '/products/bamboo-jafri', description: 'Bamboo fencing, screens & partitions.', image: img('bamboo-jafri-screen.jpg') },
+  { title: 'Bamboo Hut & Gazebo', href: '/products/bamboo-hut', description: 'Huts, gazebos & ambela for resorts.', image: img('bamboo-hut-gazebo.jpg') },
 ];
 
 export type TrustBadge = { icon: LucideIcon; title: string; description: string };

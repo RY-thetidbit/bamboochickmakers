@@ -9,7 +9,7 @@ type Shot = { src: string; title: string; location: string; span?: boolean };
 
 const shots: Shot[] = [
   { src: '/images/bamboochickwall.jpg', title: 'Outdoor Bamboo Chick Wall', location: 'Vasant Vihar, Delhi', span: true },
-  { src: '/images/zebrablinds.jpg', title: 'Zebra Blinds', location: 'Greater Kailash, Delhi' },
+  { src: '/images/zebrablindsdisplay.jpg', title: 'Zebra Blinds', location: 'Greater Kailash, Delhi' },
   { src: '/images/Bamboojafri.jpg', title: 'Bamboo Jafri Fencing', location: 'Chhatarpur, Delhi' },
   { src: '/images/bamboochickgarage.jpg', title: 'Garage Roll-Up Chick', location: 'South Delhi' },
   { src: '/images/Pigeonnet.jpg', title: 'Pigeon Net', location: 'Dwarka, Delhi' },

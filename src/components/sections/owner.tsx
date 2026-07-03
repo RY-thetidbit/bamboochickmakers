@@ -43,7 +43,7 @@ export function Owner({ className }: { className?: string }) {
               {/* Floating credential card */}
               <div className="absolute -bottom-5 left-1/2 w-[88%] -translate-x-1/2 rounded-2xl border border-cream-200 bg-white px-5 py-4 shadow-card">
                 <p className="font-heading text-base font-semibold text-ink">{site.owner.name}</p>
-                <p className="text-sm text-muted-foreground">{site.owner.role}</p>
+                <p className="text-sm text-muted-foreground">{site.owner.role} · S K Sikarwar&rsquo;s Bamboo Chick Makers</p>
                 <div className="mt-2 flex items-center gap-1 text-leaf">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="h-3.5 w-3.5 fill-leaf text-leaf" />
@@ -62,6 +62,9 @@ export function Owner({ className }: { className?: string }) {
             <h2 className="heading-lg mt-4 text-balance">
               Led by {site.owner.name}, hands-on from quote to install
             </h2>
+            <p className="mt-3 font-heading text-lg font-semibold text-brand-700">
+              S K Sikarwar&rsquo;s Bamboo Chick Makers
+            </p>
 
             <div className="mt-5 space-y-4 text-muted-foreground">
               {site.owner.bio.map((para, i) => (
